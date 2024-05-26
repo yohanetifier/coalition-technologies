@@ -131,6 +131,7 @@ body {
 /* Add some variables */
 :root {
 	--primary-color: #072635;
+	--activestate_bg_1: #01f0d0;
 }
 
 a {
@@ -145,6 +146,7 @@ li {
 .logo {
 	width: 211px;
 	height: 48px;
+	margin-left: 32px;
 }
 
 .centerMenu {
@@ -153,15 +155,16 @@ li {
 }
 
 .menu {
-	width: 97.75vw;
+	width: 1564px;
 	height: 6vh;
 	border-radius: 70px;
 	display: flex;
 	position: relative;
 	top: 18px;
 	align-items: center;
-	padding: 0 32px;
+	/* padding: 0 32px; */
 	justify-content: space-between;
+	background-color: white;
 }
 
 .menu-list {
@@ -175,6 +178,7 @@ li {
 	justify-content: center;
 	align-items: center;
 	gap: 9px;
+	font-weight: bold;
 }
 
 .userLogin {
@@ -184,6 +188,7 @@ li {
 	width: 241px;
 	height: 44px;
 	gap: 8px;
+	margin-right: 32px;
 }
 
 .userInfo {
@@ -192,6 +197,13 @@ li {
 	flex-direction: column;
 	justify-content: center;
 	font-size: 14px;
+}
+
+.selectedItems {
+	background-color: var(--activestate_bg_1);
+	width: 121px;
+	height: 41px;
+	border-radius: 41px;
 }
 
 .settings {
@@ -212,4 +224,8 @@ li {
 .moreIcon {
 	width: 4px;
 	height: 18px;
+}
+
+.userInfoName {
+	font-weight: bold;
 }
