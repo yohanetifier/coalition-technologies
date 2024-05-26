@@ -172,7 +172,9 @@ li {
 
 .menu-item {
 	display: flex;
+	justify-content: center;
 	align-items: center;
+	gap: 9px;
 }
 
 .userLogin {
