@@ -155,7 +155,6 @@ li {
 .menu {
 	width: 97.75vw;
 	height: 6vh;
-	border: 2px solid red;
 	border-radius: 70px;
 	display: flex;
 	position: relative;
@@ -190,13 +189,14 @@ li {
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
+	font-size: 14px;
 }
 
 .settings {
 	display: flex;
 	align-items: center;
 	justify-content: center;
-	border-left: 1px solid #000;
+	border-left: 1px solid gray;
 	height: 100%;
 	padding-left: 15px;
 	gap: 12px;
@@ -204,5 +204,10 @@ li {
 
 .settingsIcon {
 	width: 20px;
+	height: 18px;
+}
+
+.moreIcon {
+	width: 4px;
 	height: 18px;
 }
