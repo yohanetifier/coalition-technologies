@@ -12,6 +12,9 @@ fetch('https://fedskillstest.coalitiontechnologies.workers.dev', {
 	.then((response) => response.json())
 	.then((data) => {
 		const patientsWrapper = document.querySelector('.patientsWrapper');
+		jessicaData = data.filter(
+			(patient) => patient.name === 'Jessica Taylor'
+		);
 		data.forEach((patient) => {
 			const patientDiv = document.createElement('div');
 			patientDiv.classList.add('singlePatient');

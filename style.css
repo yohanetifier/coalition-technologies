@@ -240,6 +240,8 @@ body {
 	margin-top: 32px;
 	height: 1054px;
 	overflow: hidden;
+	display: flex;
+	justify-content: space-between;
 }
 
 .patientsWrapper {
@@ -283,4 +285,37 @@ body {
 .headingWrapper {
 	display: flex;
 	justify-content: space-between;
+}
+
+.diagnosisWrapper {
+	border-radius: 16px;
+	overflow: hidden;
+}
+
+.diagnosisHistoryWrapper {
+	width: 766px;
+	height: 673px;
+	background-color: white;
+	overflow: hidden;
+	padding: 20px;
+	margin-bottom: 32px;
+}
+
+h2 {
+	font-size: 24px;
+	font-weight: bold;
+}
+
+.headingDiagnostic {
+	background: #f6f7f8;
+	height: 48px;
+	width: 100%;
+	border: 2px solid red;
+}
+
+.diagnosticListWrapper {
+	background: white;
+	width: 100%;
+	height: 349px;
+	padding: 20px;
 }
