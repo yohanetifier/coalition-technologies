@@ -236,22 +236,25 @@ body {
 }
 
 .mainWrapper {
-	border: 2px solid red;
 	width: 1564px;
 	margin-top: 32px;
 	height: 1054px;
+	overflow: hidden;
 }
 
 .patientsWrapper {
 	padding: 20px;
 	width: 367px;
+	height: 100%;
 	background-color: white;
 	border-radius: 16px;
+	overflow: scroll;
 }
 
 .patientsTitle {
 	font-size: 24px;
 	font-weight: bold;
+	margin-bottom: 40px;
 }
 
 .singlePatient {
@@ -266,7 +269,6 @@ body {
 	width: 48px;
 	height: 48px;
 	border-radius: 50%;
-	border: 2px solid red;
 }
 
 .patientGender {
@@ -276,4 +278,9 @@ body {
 
 .patientName {
 	font-weight: bold;
+}
+
+.headingWrapper {
+	display: flex;
+	justify-content: space-between;
 }
