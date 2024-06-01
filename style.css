@@ -143,6 +143,13 @@ li {
 	list-style: none;
 }
 
+body {
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	align-items: center;
+}
+
 .logo {
 	width: 211px;
 	height: 48px;
@@ -156,13 +163,11 @@ li {
 
 .menu {
 	width: 1564px;
-	height: 6vh;
+	height: 72px;
 	border-radius: 70px;
 	display: flex;
-	position: relative;
-	top: 18px;
+	margin-top: 18px;
 	align-items: center;
-	/* padding: 0 32px; */
 	justify-content: space-between;
 	background-color: white;
 }
@@ -227,5 +232,24 @@ li {
 }
 
 .userInfoName {
+	font-weight: bold;
+}
+
+.mainWrapper {
+	border: 2px solid red;
+	width: 1564px;
+	margin-top: 32px;
+	height: 1054px;
+}
+
+.patientsWrapper {
+	padding: 20px;
+	width: 367px;
+	background-color: white;
+	border-radius: 16px;
+}
+
+.patientsTitle {
+	font-size: 24px;
 	font-weight: bold;
 }
