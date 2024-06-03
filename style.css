@@ -338,13 +338,15 @@ h2 {
 	width: 100%;
 }
 
-.firstCateg {
+.firstCateg,
+.problemContent {
 	width: 233px;
 	display: flex;
 	align-self: unset;
 }
 
-.secondCateg {
+.secondCateg,
+.descriptionContent {
 	width: 364px;
 	display: flex;
 	align-self: unset;
@@ -357,4 +359,20 @@ h2 {
 th {
 	font-size: 19px;
 	font-weight: bold;
+}
+
+.rowContent {
+	display: flex;
+	/* padding: 21px 31px 19px 16px; */
+	padding-top: 21px;
+	/* border: 2px solid blue; */
+	margin-bottom: 18px;
+	color: var(--primary-color);
+}
+
+#diagnoticPatientContent {
+	display: block;
+	overflow-y: auto;
+	display: block;
+	border: 2px solid orange;
 }
